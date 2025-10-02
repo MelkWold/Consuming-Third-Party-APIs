@@ -32,5 +32,5 @@ export default function PlanetsPage(){
         return <Planet key ={i} {...planet}/>
     });
 
-    return planets ? <div className="planetContainer">{loaded()}</div> : loading();
+    return planets ? <div className="container">{loaded()}</div> : loading();
 }
