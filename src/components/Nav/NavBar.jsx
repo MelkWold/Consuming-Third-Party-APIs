@@ -5,9 +5,9 @@ export default function NavBar(){
     return(
         <nav className={style.nav}>
             <ul>
-                <Link to = {"/planets"}><li>Planets</li></Link>
-                <Link to = {"/starships"}><li>Starships</li></Link>
-                <Link to = {"/"}><li>People</li></Link>
+                <li><Link to = {"/planets"}>Planets</Link></li>
+                <li><Link to = {"/starships"}>Starships</Link></li>
+                <li><Link to = {"/"}>People</Link></li>
             </ul>
         </nav>
     )

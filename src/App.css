@@ -6,27 +6,45 @@
 .container{
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  justify-content: space-around;
+  gap: 30px;
+  justify-content: space-evenly;
 }
 
 .card1{
   border: 4px solid black;
   border-radius: 25px;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
+  background-color: rgb(163, 249, 206);
+  border: none;
+  box-shadow: 5px 5px 15px rgb(247, 145, 251);
+  width: 400px;
+  height: 200px;
+  margin: 20px;
 }
 
 .card2{
   border: 4px solid black;
   border-radius: 25px;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
+  background-color: rgb(155, 231, 246);
+  border: none;
+  box-shadow: 5px 5px 15px rgb(246, 175, 129);
+  width: 400px;
+  height: 200px;
+  margin: 20px;
 }
 
 .card3{
   border: 4px solid black;
   border-radius: 25px;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
+  background-color: rgb(244, 246, 224);
+  border: none;
+  box-shadow: 5px 5px 15px rgb(94, 219, 241);
+  width: 400px;
+  height: 200px;
+  margin: 20px;
 }
